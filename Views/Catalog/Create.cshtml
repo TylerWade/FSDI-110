@@ -1,0 +1,125 @@
+@{
+    ViewData["Title"] = "Add car to Catalog";
+}
+<link href="/css/createcar.css">
+
+<div class="text-center">
+    <h1 class="display-4">Add Exotic Rental Car</h1>
+</div>
+
+
+
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>VEHICLE INFORMATION</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="carMake">CAR MAKE</label>  
+  <div class="col-md-4">
+  <input id="txtMake" name="txtMake" ke" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtModel">CAR MODEL</label>  
+  <div class="col-md-4">
+  <input id="txtModel" name="txtModel" del" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtYear">CAR YEAR</label>  
+  <div class="col-md-4">
+  <input id="txtYear" name="txtYear" ar" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text area -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtDescription">CAR DESCRIPTION</label>
+  <div class="col-md-4">
+    <textarea id="txtDescription" name="txtDescription" class="form-control">
+    </textarea>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtColor">CAR COLOR</label>  
+  <div class="col-md-4">
+  <input id="txtColor" name="txtColor"  class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtHP">HORSE POWER</label>  
+  <div class="col-md-4">
+  <input id="txtHP" name="txtHP"  class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!------------------------------------->
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtRentPrice">CAR RENTAL PRICE PER DAY</label>  
+  <div class="col-md-4">
+  <input id="txtRentPrice" name="txtRentPrice"  class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtPicture">CAR PICTURE</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="txtPicture"  name="txtPicture"></textarea>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtGasMilage">GAS MILAGE
+  </label>  
+  <div class="col-md-4">
+  <input id="txtGasMilage" name="txtGasMilage"  class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="txtPassengers">SEATING</label>  
+  <div class="col-md-4">
+  <input id="txtPassengers" name="txtPassengers"  class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <div class="col-md-4">
+    <button id="btnSave" onclick="saveCar()" name="btnSave" class="btn btn-danger" type="button"
+    >SAVE CAR</button>
+  </div>
+  </div>
+
+</fieldset>
+</form>
+
+</div>
+
+
+
+<script src="/js/createcar.js"></script>

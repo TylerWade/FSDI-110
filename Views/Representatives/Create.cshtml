@@ -1,0 +1,63 @@
+@{ ViewData["Title"] = "Create Page"; }
+
+<link href="/css/createrep.css" rel="stylesheet" />
+
+<h1>Register New Representative</h1>
+
+<!-- Create capture form-->
+<form class="form-horizontal">
+  <fieldset>
+    <!-- Form Name -->
+    <legend>Representative INFORMATION</legend>
+
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtFirstName"
+        >REP FIRST NAME</label
+      >
+      <div class="col-md-4">
+        <input id="txtFirstName" name="txtFirstName" ke" class="form-control
+        input-md" required="" type="text">
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtLastName"
+        >REP LAST NAME</label
+      >
+      <div class="col-md-4">
+        <input id="txtLastName" name="txtLastName" del" class="form-control
+        input-md" required="" type="text">
+      </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="txtNumber"
+        >REP PHONE NUMBER</label
+      >
+      <div class="col-md-4">
+        <input id="txtNumber" name="txtNumber" ar" class="form-control input-md"
+        required="" type="text">
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="form-group">
+      <div class="col-md-4">
+        <button
+          id="btnSave"
+          onclick="save()"
+          name="btnSave"
+          class="btn btn-danger"
+          type="button"
+        >
+          SAVE REP
+        </button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+
+<script src="/js/createrep.js"></script>
